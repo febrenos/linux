@@ -1,4 +1,4 @@
-SYSTEM
+tSYSTEM
 systemctl suspend
 systemctl hibernate
 reboot system
@@ -40,6 +40,7 @@ tar -xzf projetos.tar.gz (unzip)
 WLAN
 iwlist
 iwconfig
+iw dev wlan0 scan
 airmon-ng
 airmon-ng check kill
 ifconfig
@@ -60,6 +61,7 @@ sudo systemctl start NetworkManager
 dmesg | grep wifi
 lsusb
 dmesg | grep r8169
+dhcpcd -d -t 120
 service network-manager restart
 
 KILL
