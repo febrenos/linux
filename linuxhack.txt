@@ -1,0 +1,77 @@
+NUMBERS
+prime number
+factor "x"
+aleatory
+$random
+echo $[ 1 + $[ RANDOM % 10 ]]
+
+
+LETTERS
+rev "Hello word!"
+yes "Hello word!"
+
+
+IMG
+img caractere
+sudo apt-get install aview imagemagick
+asciiview nomedafoto.png
+
+WEBCAN
+windonws > prokmon (filter search operational RegSetValue)
+painel de controle webcam (inspect)
+linux > metapreter(metasploit)
+webcam_list
+reg enumkey -k "./x/x" -v nomeondeacessar
+screenshot
+reboot
+
+
+
+INSTALL NGROK
+- Serve para abrir porta para rede externa
+https://youtu.be/4jYIkDMmEYs
+
+termux-setup-storage
+https://ngrok.com/
+apt update
+cd /sdcard
+ls 
+cd Download
+cd ngrok-stable-linux-arm
+ls
+mv -v ngrok /$HOME
+chmod +x ngrok
+./ ngrok authtoken {xxxxx}
+ls
+./ngrok
+./ngrok http 350
+
+INSTALL NGROK2
+https://ngrok.com/
+apt update
+ls
+cd storage
+ls
+cd download
+ls
+cd ngrok-stable-linux-arm
+ls
+Chmod +x ngrok
+mv ngrok /data/data/com.termux/files/home
+>> iniciar outro terminal <<
+ls
+./ngrok authtoken {xxxxx}
+./ngrok http 80
+
+INSTALL WEEMAN
+https://youtu.be/Y_cgk5Ecaek
+
+apt update
+apt install git 
+git clone
+ls
+cd weeman
+ls
+python2 weeman.py
+show
+

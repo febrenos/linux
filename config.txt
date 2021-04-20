@@ -1,0 +1,98 @@
+SYSTEM
+systemctl suspend
+systemctl hibernate
+reboot system
+shutdowm now
+uname -m
+uname -a
+gdisk
+top
+netstat
+vmstat
+ps
+
+DATE
+date mmddhhmmyyyy.ss
+relogio
+date +%y%m%d -s 20120408
+date -s "04/08/2012 15:53:13"
+date +%T -s "15:53:13"
+date +%T%p -s "03:53:13PM"
+
+RESOLUTION
+xrandr
+xrandr newmod
+xrandr --addmode VGA-0 1680x1050_60.00
+xrandr --addmode VGA-0 1680x1050_60.00
+
+COMPACT
+unzip nomedoarquivo.zip (zip)
+unrar x nomedoarquivo.rar (rar)
+tar -xvf nomedoarquivo.tar (tar)
+tar -vzxf nomedoarquivo.tar.gz (tar.gz)
+bunzip nomedoarquivo.bz2 (bz2)
+tar -jxvf nomedoarquivo (tar.bz2)
+
+tar -czf projetos.tar.gz Projetos/ (compact)
+tar -xzf projetos.tar.gz (unzip)
+-v (verbose, details)
+
+WLAN
+iwlist
+iwconfig
+airmon-ng
+airmon-ng check kill
+ifconfig
+ifconfig wlan0 down
+ifconfig wlan0 up
+rfkill list
+rfkill unblock wifi
+rfkill unlock wifi
+lsmod
+lspci
+modinfo 'x'
+ip a
+ping 8.8.8.8
+sudo systemctl status NetworkManager
+sudo systemctl stop NetworkManager
+ip a
+sudo systemctl start NetworkManager
+dmesg | grep wifi
+lsusb
+dmesg | grep r8169
+service network-manager restart
+
+KILL
+top / ps / pstree
+kill -l
+kill PID
+kill -9 PID force remove
+SIGKILL - end process brutal form
+SIGTERM - end proces 
+pidof ex:firefox
+
+INSTALL
+apt update
+chmod +x nomearquivo.deb
+sudo dpkg -i nomearquivo.deb
+sudo dpkg -i *.deb
+sudo apt install xdg-utils
+apt --fix-broken install
+
+sudo apt-get install nomedoprograma
+sudo apt-get install gimp
+
+REMOVE
+sudo apt-get remove nomedoprograma
+sudo apt-get  purge nomedoprograma (remove congfig about user)
+sudo apt-get purge gimp
+
+ADD USER
+useradd -m chromeuser or adduser -u chromeuser
+gksu -u chromeuser google-chrome
+
+GIT
+git config
+git config --global user.name "Fulano de Tal"
+git config --global user.email "Fulano de Tal"
+git config --list
