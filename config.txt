@@ -13,7 +13,6 @@ ps
 
 DATE
 date mmddhhmmyyyy.ss
-relogio
 date +%y%m%d -s 20120408
 date -s "04/08/2012 15:53:13"
 date +%T -s "15:53:13"
@@ -32,7 +31,6 @@ tar -xvf nomedoarquivo.tar (tar)
 tar -vzxf nomedoarquivo.tar.gz (tar.gz)
 bunzip nomedoarquivo.bz2 (bz2)
 tar -jxvf nomedoarquivo (tar.bz2)
-
 tar -czf projetos.tar.gz Projetos/ (compact)
 tar -xzf projetos.tar.gz (unzip)
 -v (verbose, details)
