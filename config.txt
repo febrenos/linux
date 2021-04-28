@@ -15,6 +15,7 @@ DATE
 date mmddhhmmyyyy.ss
 date +%y%m%d -s 20120408
 date -s "04/08/2012 15:53:13"
+date --set "04/08/2012 15:53:13"
 date +%T -s "15:53:13"
 date +%T%p -s "03:53:13PM"
 
