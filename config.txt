@@ -1,4 +1,4 @@
-tSYSTEM
+SYSTEM
 systemctl suspend
 systemctl hibernate
 reboot system
@@ -77,6 +77,7 @@ apt update
 chmod +x nomearquivo.deb
 sudo dpkg -i nomearquivo.deb
 sudo dpkg -i *.deb
+sudo apt-get remove xdg-utils
 sudo apt install xdg-utils
 apt --fix-broken install
 
