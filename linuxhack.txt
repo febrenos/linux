@@ -5,6 +5,20 @@ aleatory
 $random
 echo $[ 1 + $[ RANDOM % 10 ]]
 
+WLAN
+ifconfig wlan0 down
+ifconfig wlan0 up
+dhclient -r
+dhclient
+sudo /etc/init.d/nscd restart --flush
+sudo systemctl is-active systemd-resolved.service
+sudo systemd-resolve --flush-caches
+sudo systemctl restart dnsmasq.service
+sudo service dnsmasq restart
+sudo systemctl restart nscd.service
+sudo service nscd restart
+
+
 
 LETTERS
 rev "Hello word!"

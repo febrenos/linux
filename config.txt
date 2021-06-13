@@ -1,4 +1,5 @@
 SYSTEM
+journalctl -k -g iwl-debug-yoyo
 systemctl suspend
 systemctl hibernate
 reboot system
@@ -102,7 +103,9 @@ git config --global user.name "Fulano de Tal"
 git config --global user.email "Fulano de Tal"
 git config --list
 
-FAST BOOT
+BOOT
+sudo os-prober
+sudo update-grub
 $ sudo nano /etc/default/grub
 
 Procure a linha "GRUB_CMDLINE_LINUX_DEFAULT" e acrescente o comando fastboot entre as aspas (" "):

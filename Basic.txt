@@ -1,13 +1,12 @@
 			COMANDOS Kali LINUX basic
 
---ABRIR A PROMPT
+ABRIR A PROMPT
 abrir a ferramenta do arsenal do kalli
 control + alt + t
 control + l -limpar o terminal
 
 
 COMANDOS
-
 man man			-abrir o manual do manual 
 man (pwd) 		-tudo sobre pwd (oque voce quer saber)
 man ls			-todos os parametros listados (q para sair)

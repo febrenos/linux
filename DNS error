@@ -1,0 +1,11 @@
+Verifique suas configurações do DNS
+Entre em contato com seu administrador de rede se não souber o que isso significa.
+
+Tente desativar a previsão de rede
+Vá para o menu do Google Chrome > Configurações > Mostrar configurações avançadas… e desmarque "Usar um serviço de previsão para carregar páginas mais rapidamente". Se isso não resolver o problema, recomendamos que você selecione esta opção novamente para melhorar o desempenho.
+
+Permitir que o Chrome acesse a rede nas configurações do seu firewall ou antivírus.
+Se ele já estiver listado como um programa que tem permissão para acessar a rede, tente removê-lo da lista e adicioná-lo novamente.
+
+Se você usa um servidor proxy…
+Verifique suas configurações de proxy ou entre em contato com o administrador de rede para verificar se o servidor proxy está funcionando. Se você acredita que não deve usar um servidor proxy: Vá para no menu do Google Chrome > Configurações > Mostrar configurações avançadas… > Alterar configurações de prox
