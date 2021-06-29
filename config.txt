@@ -2,6 +2,7 @@ SYSTEM
 journalctl -k -g iwl-debug-yoyo
 systemctl suspend
 systemctl hibernate
+lscpu || grep
 reboot system
 shutdowm now
 uname -m
@@ -99,9 +100,11 @@ gksu -u chromeuser google-chrome
 
 GIT
 git config
+git config --list
+git config --list --show-origin
 git config --global user.name "Fulano de Tal"
 git config --global user.email "Fulano de Tal"
-git config --list
+
 
 BOOT
 sudo os-prober
