@@ -41,6 +41,7 @@ rm -rf /		-apagar Todo o sistema
 touch testo 		-criar arquivos
 touch script .js	-criar em java
 touch script .php	-criar em php
+tree -a			-lista arquivos em forma de arvore
 cp x pasta/		-copia o arquivo x para a pasta
 mv x pasta/		-move arquivo para a apasta
 mv pasta/ pastanovo	-renomeia o nome de uma pasta
